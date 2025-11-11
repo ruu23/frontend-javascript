@@ -6,11 +6,11 @@
 
 import { Cpp } from '../js/subjects/Cpp'
 import { Java } from '../js/subjects/Java.ts'
-import { ReactClass } from '../js/subjects/React.ts'
+import { React } from '../js/subjects/React.ts'
 
 export const cpp = new Cpp()
 export const java = new Java()
-export const react = new ReactClass()
+export const react = new React()
 
 export const cTeacher: Subjects.Teacher = {
     firstName: 'Arwa',
