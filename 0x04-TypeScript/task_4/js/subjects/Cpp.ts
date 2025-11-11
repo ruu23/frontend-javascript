@@ -15,7 +15,7 @@ namespace Subjects{
         if (!this.teacher.experienceTeachingC || this.teacher.experienceTeachingC === 0) {
             return 'No available teacher';
         } 
-        return `Available Teacher:${this.teacher.firstName}`;
+        return `Available Teacher: ${this.teacher.firstName}`;
         
         
     }
