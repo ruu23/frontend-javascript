@@ -24,11 +24,11 @@ console.log(cpp.getAvailableTeacher());
 console.log(cpp.getRequirements());
 
 console.log("Java");
-cpp.setTeacher(cTeacher);
+java.setTeacher(cTeacher);
 console.log(java.getAvailableTeacher());
 console.log(java.getRequirements());
 
 console.log("React");
-cpp.setTeacher(cTeacher);
+react.setTeacher(cTeacher);
 console.log(react.getAvailableTeacher());
 console.log(react.getAvailableTeacher);
