@@ -6,15 +6,15 @@ namespace Subjects {
         experienceTeachingJava?: number;
     }
 
-    export class JavaClass extends Subject {
+    export class Java extends Subject {
         getRequirements(): string {
-            return 'Here is the list of requirements for Cpp';
+            return 'Here is the list of requirements for Java';
         }
         getAvailableTeacher(): string {
             if (!this.teacher.experienceTeachingJava || this.teacher.experienceTeachingJava === 0) {
                 return 'No available teacher';
             } 
-            return `Teacher:${this.teacher.firstName}`;
+            return `Available Teacher:${this.teacher.firstName}`;
             
             
         } 

@@ -8,13 +8,13 @@ namespace Subjects {
 
     export class ReactClass extends Subject {
         getRequirements(): string {
-            return 'Here is the list of requirements for Cpp';
+            return 'Here is the list of requirements for React';
         }
         getAvailableTeacher(): string {
             if (!this.teacher.experienceTeachingReact || this.teacher.experienceTeachingReact === 0) {
                 return 'No available teacher';
             } 
-            return `Teacher:${this.teacher.firstName}`;
+            return `Available Teacher:${this.teacher.firstName}`;
             
             
         } 
