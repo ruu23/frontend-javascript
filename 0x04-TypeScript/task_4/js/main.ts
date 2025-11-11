@@ -12,7 +12,7 @@ export const cpp = new Cpp()
 export const java = new Java()
 export const react = new React()
 
-export const cTeacher: Subjects.Teacher = {
+export const cTeacher: Teacher = {
     firstName: 'Arwa',
     lastName: 'Mahmoud',
     experienceTeachingC: 22,
@@ -21,12 +21,12 @@ export const cTeacher: Subjects.Teacher = {
 console.log("C++");
 cpp.setTeacher(cTeacher);
 console.log(cpp.getAvailableTeacher());
-console.log(cpp.getAvailableTeacher);
+console.log(cpp.getRequirements());
 
 console.log("Java");
 cpp.setTeacher(cTeacher);
 console.log(java.getAvailableTeacher());
-console.log(java.getAvailableTeacher);
+console.log(java.getRequirements());
 
 console.log("React");
 cpp.setTeacher(cTeacher);
