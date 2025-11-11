@@ -4,9 +4,14 @@
 /// <reference path="./subjects/Java.ts" />
 /// <reference path="./subjects/React.ts" />
 
-import { Cpp } from '../js/subjects/Cpp'
-import { Java } from '../js/subjects/Java.ts'
-import { React } from '../js/subjects/React.ts'
+import './subjects/Cpp'
+import './subjects/Java'
+import './subjects/React'
+
+const Cpp = Subjects.Cpp;
+const Java = Subjects.Java;
+const React = Subjects.React;
+type Teacher = Subjects.Teacher;
 
 export const cpp = new Cpp()
 export const java = new Java()
